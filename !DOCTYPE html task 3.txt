@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Netflix Home</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.edigitalagency.com.au%2Flogos%2Fnew-netflix-logo-png%2F&psig=AOvVaw3UnolZFdk-Z2uWEqf7Sb94&ust=1690888248687000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIiDwd3nuIADFQAAAAAdAAAAABAE .png" alt="Netflix Logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">New & Popular</a></li>
+                <li><a href="#">My List</a></li>
+            </ul>
+        </nav>
+        <section class="hero-banner">
+            <h1>Unlimited movies, TV shows, and more.</h1>
+            <p>Watch anywhere. Cancel anytime.</p>
+            <button>Sign Up Now</button>
+        </section>
+    </body>
+</html>
+
+css code :
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    padding: 10px 50px;  
+}
+
+nav img {
+    height: 30px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+.hero-banner {
+    background: url('https://occ-0-2767-60.1.nflxso.net/art/68639/c505d50043de6279f7d979b4bb2e491552a68639.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-banner h1 {
+    font-size: 5rem;
+    margin-bottom: 0;
+}
+
+.hero-banner p {
+    font-size: 1.5rem;
+    margin: 10px 0 20px;
+}
+
+.hero-banner button {
+    padding: 10px 25px;
+    font-size: 1.3rem;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
